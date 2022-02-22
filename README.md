@@ -1,4 +1,4 @@
-# Sports-Image-Classifier
+# Sports Image Classifier
 
 ## The main task
 
