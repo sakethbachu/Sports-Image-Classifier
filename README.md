@@ -25,3 +25,20 @@ The model CLIP was introduced in the paper [Learning Transferable Visual Models 
 
 #### Why is it so interesting?
 The authors show that when this model is trained on a huge dataset of images and their corresponding captions describing them, it can also act as a classifier too. They claim that, CLIP model trained with this strategy classifies ImageNet better than those SOTA models trained on the ImageNet itself optimized for the only task of classification and without using any of the 1.28 million examples that it was trained on.
+
+### Results
+The below graph is the loss curve for the finetuning task.
+
+![title_img](./images/Loss.png)
+
+The below graph is the accuracy curve for the finetuning task.
+
+![acc_img](./images/Accuracy.png)
+
+The below image is the output from the GradCAM module after the finetuning task. For more information, refer to the project report in this repository.
+
+![acc_img](./images/cam.jpg)
+
+
+
+
